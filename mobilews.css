@@ -5,7 +5,7 @@
 /*style the title*/
 .title{
     font-size:30px;
-    font-family:fantasy;
+    font-family:georgia;
     padding:10px 10px;
 }
 /*style the menunvbr*/
@@ -14,7 +14,7 @@
     top:-45px;
     left:40%;
     word-spacing:15px;
-    font-family:fantasy;
+    font-family:georgia;
     text-decoration:none;
     color:lime;
 
@@ -61,7 +61,7 @@
 }
 .menu-list li a{
     text-decoration:none;
-    font-family:fantasy;
+    font-family:georgia;
     color:lime;
 }
 .menu-list li {
@@ -95,7 +95,7 @@ input[type=checkbox]{
     width:300px;
     height:30px;
     overflow: hidden;
-    font-family:fantasy;
+    font-family:georgia;
     font-size:25px;
     background-color:skyblue;
     border-radius:7px;
@@ -167,7 +167,7 @@ input[type=checkbox]{
         top:25px;
         left:10px;
         border-radius: 15px;
-        font-family:fantasy;
+        font-family:georgia;
         text-decoration: none;
     }
     .neon-border{
@@ -211,7 +211,7 @@ input[type=checkbox]{
     .ml{
         display: block;
         position: relative;
-        top:-10px;
+        top:10px;
         left:50px;
     }
     .mlpic{
@@ -230,14 +230,14 @@ input[type=checkbox]{
         top:-1%;
         font-size:20px;
         left:-10px;
-        font-family: fantasy;
+        font-family: georgia;
         font-weight:bold;
     }
     .tablet{
         display:block;
         position:relative;
         left:245px;
-        top:-180px;
+        top:-150px;
     }
     .tlpic{
         display:block;
@@ -253,7 +253,7 @@ input[type=checkbox]{
     .pic2{
         position: relative;
         top:-1%;
-        font-family: fantasy;
+        font-family: georgia;
         font-size:20px;
         font-weight: bold;
         left:-10px;
@@ -262,12 +262,12 @@ input[type=checkbox]{
         display:block;
         position:relative;
         left:90px;
-        top:-140px;
+        top:-130px;
     }
     .pic3{
         position: relative;
-        top:-20px;
-        font-family: fantasy;
+        top:1px;
+        font-family: georgia;
         font-size:20px;
         font-weight: bold;
         left:45px;
@@ -281,6 +281,6 @@ input[type=checkbox]{
         height:160px;
         border-radius:20px;
         position: relative;
-        top:-10px;
+        top:5px;
     }
 }
