@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*style the title*/
+.title{
+    font-size:30px;
+    font-family:fantasy;
+    padding:10px 10px;
+}
+/*style the menunvbr*/
+.menunvbr a{
+    position: relative;
+    top:-45px;
+    left:40%;
+    word-spacing:15px;
+    font-family:fantasy;
+    text-decoration:none;
+    color:lime;
+
+}
+/* Style the menu button container */
+.menu-button {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    left:95%;
+    padding-top:12.5px;
+}
+/*style the navbar*/
+.navbar{
+    position:absolute;
+    background-color:dodgerblue;
+    width:100%;
+    height:60px;
+}
+/* Style the individual bars */
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Style the menu list */
+.menu-list {
+    position: absolute;
+    top: 40px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color:blueviolet;
+    list-style-type:none;
+    padding: 20px 0px;
+    display: none; /* Hide the menu initially */
+    border: 3px solid lime;
+    border-radius:20px;
+    box-shadow: 0px 2px 5px rgba(249, 227, 31, 0.2);
+    width:320px;
+
+}
+.menu-list li a{
+    text-decoration:none;
+    font-family:fantasy;
+    color:lime;
+}
+.menu-list li {
+    margin-bottom: 10px;
+    padding:20px;
+    margin-right:70px;
+}
+li a{
+    background-color:dodgerblue;
+    padding:20px 100px;
+    margin:2px 20px;
+    border-radius:20px;
+    
+}
+/* Show the menu when the checkbox is checked */
+#menu-toggle:checked ~ .menu-list {
+    display:block;
+}
+input[type=checkbox]{
+    display:none;
+}
+.scrolltext p{
+    animation:scrolling 15s linear infinite;
+    position:relative;
+    width:600%;
+    overflow: hidden;
+}
+
+.scrolltext{
+    position: relative;
+    width:300px;
+    height:30px;
+    overflow: hidden;
+    font-family:fantasy;
+    font-size:25px;
+    background-color:skyblue;
+    border-radius:7px;
+    
+}
+
+/* Style the neon border container */
+.neon-border {
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top:20px;
+    left:37%;
+    animation: neon-border 2s infinite;
+    border-radius:10px;
+}
+.ml{
+    display:none;
+}
+
+
+
+/* Define the neon border animation */
+@keyframes neon-border {
+    0% {
+        border: 2px solid #9d00ff; /* Neon green */
+        box-shadow: 0 0 10px #bb57f9; /* Neon green */
+    }
+    50% {
+        border: 2px solid #a459fe; /* Bright green */
+        box-shadow: 0 0 20px #967bb6; /* Bright green */
+    }
+    100% {
+        border: 2px solid #c494ff; /* Neon green */
+        box-shadow: 0 0 10px #9d00ff; /* Neon green */
+    }
+}
+
+@keyframes scrolling{
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
+
+@media screen and (max-width:420px){
+    .menunvbr{
+        display:none;
+    }
+    html, body{
+        overflow-x:hidden;
+    }
+    .menu-button{
+        position: relative;
+        left:86%;
+    }
+    .menu-list{
+        height:70%;
+        width:90%;
+        z-index:1;
+    }
+    li a{
+        background-color:dodgerblue;
+        padding:18px 100px;
+        margin:0px 15px;
+        position: relative;
+        top:25px;
+        left:10px;
+        border-radius: 15px;
+        font-family:fantasy;
+        text-decoration: none;
+    }
+    .neon-border{
+        position:absolute;
+        top:65px;
+        left:1.7px;
+        width:98%;
+    }
+    .scrolltext{
+        width:100%;
+    }
+    .navbar{
+        position:fixed;
+        z-index:1;
+    }
+    .menu-button{
+        position:fixed;
+        top:0px;
+        z-index:1;
+    }
+    .img1{
+        background-image: url(images/IMG_4732.jpg);
+        height:400px;
+        background-size:100%;
+        background-repeat: no-repeat;
+        position: relative;
+        top:109px;
+        
+    }
+    .twtr{
+        /*background-image:url(images/IMG_4737.jpg);
+        background-size: 100%;
+        background-repeat:no-repeat;
+        width:30%;
+        height:30%;
+        position:absolute;
+        bottom:5px;
+        left:50px;*/
+        
+    }
+    .ml{
+        display: block;
+        position: relative;
+        top:-10px;
+        left:50px;
+    }
+    .mlpic{
+        display:block;
+        background-image:url(images/IMG_4742.jpg);
+        width:120px;
+        height:140px;
+        background-size:100%;
+        background-repeat:no-repeat;
+        border-radius:20px;
+        position: relative;
+        top:5px;
+    }
+    .pic1{
+        position:relative;
+        top:-1%;
+        font-size:20px;
+        left:-10px;
+        font-family: fantasy;
+        font-weight:bold;
+    }
+    .tablet{
+        display:block;
+        position:relative;
+        left:245px;
+        top:-180px;
+    }
+    .tlpic{
+        display:block;
+        background-image:url(images/IMG_4740.jpg);
+        background-size:100%;
+        background-repeat:no-repeat;
+        width:120px;
+        height:140px;
+        border-radius:20px;
+        position: relative;
+        top:5px;
+    }
+    .pic2{
+        position: relative;
+        top:-1%;
+        font-family: fantasy;
+        font-size:20px;
+        font-weight: bold;
+        left:-10px;
+    }
+    .dsktp{
+        display:block;
+        position:relative;
+        left:90px;
+        top:-140px;
+    }
+    .pic3{
+        position: relative;
+        top:-20px;
+        font-family: fantasy;
+        font-size:20px;
+        font-weight: bold;
+        left:45px;
+    }
+    .dsktppic{
+        display:block;
+        background-image:url(images/IMG_4738.jpg);
+        background-size:100%;
+        background-repeat:no-repeat;
+        width:250px;
+        height:160px;
+        border-radius:20px;
+        position: relative;
+        top:-10px;
+    }
+}
