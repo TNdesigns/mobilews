@@ -5,7 +5,7 @@
 /*style the title*/
 .title{
     font-size:30px;
-    font-family:georgia;
+    font-family:Georgia;
     padding:10px 10px;
 }
 /*style the menunvbr*/
@@ -112,9 +112,7 @@ input[type=checkbox]{
     animation: neon-border 2s infinite;
     border-radius:10px;
 }
-.ml{
-    display:none;
-}
+
 
 
 
