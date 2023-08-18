@@ -167,14 +167,8 @@ input[type=checkbox]{
         top:25px;
         left:10px;
         border-radius: 15px;
-        font-family:georgia;
+        font-family:fantasy;
         text-decoration: none;
-    }
-    .neon-border{
-        position:absolute;
-        top:65px;
-        left:1.7px;
-        width:98%;
     }
     .scrolltext{
         width:100%;
@@ -188,99 +182,93 @@ input[type=checkbox]{
         top:0px;
         z-index:1;
     }
+    .neon-border{
+        position:absolute;
+        top:65px;
+        left:1.7px;
+        width:98%;
+    }
     .img1{
         background-image: url(images/IMG_4732.jpg);
-        height:400px;
+        height:300px;
         background-size:100%;
         background-repeat: no-repeat;
         position: relative;
         top:109px;
-        
-    }
-    .twtr{
-        /*background-image:url(images/IMG_4737.jpg);
-        background-size: 100%;
-        background-repeat:no-repeat;
-        width:30%;
-        height:30%;
-        position:absolute;
-        bottom:5px;
-        left:50px;*/
-        
     }
     .ml{
-        display: block;
+        /*display:block;*/
         position: relative;
-        top:10px;
-        left:50px;
+        top:23vw;
+        left:10vw;
     }
     .mlpic{
         display:block;
         background-image:url(images/IMG_4742.jpg);
-        width:120px;
-        height:140px;
+        width:32vw;
+        height:41vw;
         background-size:100%;
         background-repeat:no-repeat;
-        border-radius:20px;
+        border-radius:5vw;
         position: relative;
-        top:5px;
+        top:6vw;
     }
     .pic1{
         position:relative;
-        top:-1%;
+        top:1vw;
         font-size:20px;
-        left:-10px;
+        left:-5vw;
         font-family: georgia;
         font-weight:bold;
     }
     .tablet{
-        display:block;
+        /*display:block;*/
         position:relative;
-        left:245px;
-        top:-150px;
+        left:60vw;
+        top:-19vw;
     }
     .tlpic{
         display:block;
         background-image:url(images/IMG_4740.jpg);
         background-size:100%;
         background-repeat:no-repeat;
-        width:120px;
-        height:140px;
-        border-radius:20px;
+        width:32vw;
+        height:41vw;
+        border-radius:5vw;
         position: relative;
-        top:5px;
+        top:1.2vw;
     }
     .pic2{
         position: relative;
-        top:-1%;
+        top:-3.9vw;
         font-family: georgia;
         font-size:20px;
         font-weight: bold;
-        left:-10px;
+        left:-4vw;
     }
     .dsktp{
-        display:block;
+        /*display:block;*/
         position:relative;
-        left:90px;
-        top:-130px;
+        left:16vw;
+        top:-5vw;
     }
     .pic3{
         position: relative;
-        top:1px;
+        top:1vw;
         font-family: georgia;
         font-size:20px;
         font-weight: bold;
-        left:45px;
+        left:14vw;
     }
     .dsktppic{
         display:block;
         background-image:url(images/IMG_4738.jpg);
         background-size:100%;
         background-repeat:no-repeat;
-        width:250px;
-        height:160px;
-        border-radius:20px;
+        width:70vw;
+        height:50vw;
+        border-radius:7.8vw;
         position: relative;
-        top:5px;
+        top:5vw;
     }
 }
