@@ -113,6 +113,8 @@ input[type=checkbox]{
     border-radius:10px;
 }
 
+.navbarbtm{
+    display:none;
 
 
 
@@ -268,5 +270,48 @@ input[type=checkbox]{
         border-radius:7.8vw;
         position: relative;
         top:5vw;
+    }
+    .navbarbtm{
+        display:block;
+        position:relative;
+        top:-68vw;
+        left:0.0vw;
+
+    }
+    .navmenubtm{
+        position: fixed;
+        height:17vw;
+        width:102vw;
+        background-color: dodgerblue;
+        border-top-left-radius:5vw;
+        border-top-right-radius: 5vw;
+    }
+    .hme{
+        position: relative;
+        top:-1.5vw;
+        left:8vw;
+        height:20vw;
+        width:20vw;
+    }
+    .abt{
+        position: relative;
+        top:-1.5vw;
+        left:10vw;
+        height:20vw;
+        width:20vw;
+    }
+    .srvcs{
+        position: relative;
+        top:-1.5vw;
+        left:12vw;
+        height:20vw;
+        width:20vw;
+    }
+    .cntct{
+        position: relative;
+        top:-1.5vw;
+        left:14vw;
+        height:20vw;
+        width:20vw;
     }
 }
