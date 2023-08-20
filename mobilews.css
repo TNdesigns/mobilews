@@ -112,7 +112,6 @@ input[type=checkbox]{
     animation: neon-border 2s infinite;
     border-radius:10px;
 }
-
 .navbarbtm{
     display:none;
 }
@@ -155,19 +154,18 @@ input[type=checkbox]{
         left:86%;
     }
     .menu-list{
-        height:70%;
-        width:90%;
+        height:90vw;
+        width:80vw;
         z-index:1;
+        top:20vw;
     }
     li a{
         background-color:dodgerblue;
-        padding:18px 100px;
-        margin:0px 15px;
         position: relative;
-        top:25px;
-        left:10px;
-        border-radius: 15px;
-        font-family:fantasy;
+        top:10vw;
+        left:-2vw;
+        border-radius: 15vw;
+        font-family:Georgia;
         text-decoration: none;
     }
     .scrolltext{
@@ -176,6 +174,7 @@ input[type=checkbox]{
     .navbar{
         position:fixed;
         z-index:1;
+        left:0.5vw;
     }
     .menu-button{
         position:fixed;
@@ -271,17 +270,17 @@ input[type=checkbox]{
         position: relative;
         top:5vw;
     }
-    .navbarbtm{
+    .navmanubtm,.navbarbtm{
         display:block;
         position:relative;
         top:-68vw;
         left:0.0vw;
-
+        
     }
     .navmenubtm{
         position: fixed;
         height:17vw;
-        width:102vw;
+        width:100vw;
         background-color: dodgerblue;
         border-top-left-radius:5vw;
         border-top-right-radius: 5vw;
@@ -313,5 +312,15 @@ input[type=checkbox]{
         left:14vw;
         height:20vw;
         width:20vw;
+    }
+    
+    
+}
+@media screen and (max-height:920px){
+    .navbarbtm,.navmenubtm{
+        display:block;
+        position:fixed;
+        top:91.8vh;
+        left:0.0vw;
     }
 }
