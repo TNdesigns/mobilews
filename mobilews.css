@@ -270,20 +270,13 @@ input[type=checkbox]{
         position: relative;
         top:5vw;
     }
-    .navmanubtm,.navbarbtm{
-        display:block;
-        position:relative;
-        top:-68vw;
-        left:0.0vw;
-        
-    }
     .navmenubtm{
         position: fixed;
-        height:17vw;
         width:100vw;
         background-color: dodgerblue;
         border-top-left-radius:5vw;
         border-top-right-radius: 5vw;
+        
     }
     .hme{
         position: relative;
@@ -313,14 +306,35 @@ input[type=checkbox]{
         height:20vw;
         width:20vw;
     }
+    .imgbx {
+        width: 100%;
+        overflow-x: scroll;
+        white-space: nowrap;
+        padding: 20px;
+        background-color: skyblue;
+        position: relative;
+        top:10vw;
+    }
     
-    
+    .imgbx img{
+        display: inline-block;
+        height: 200px;
+        margin-right: 20px;
+    }
+    .textimg h2{
+        background-color: #a459fe;
+        height:150px;
+        font-size:10vw;
+    }
 }
 @media screen and (max-height:920px){
     .navbarbtm,.navmenubtm{
         display:block;
         position:fixed;
-        top:91.8vh;
+        top:90.8vh;
         left:0.0vw;
+    }
+    .navmenubtm{
+        height:10vh;
     }
 }
