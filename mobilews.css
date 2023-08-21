@@ -174,7 +174,7 @@ input[type=checkbox]{
     .navbar{
         position:fixed;
         z-index:1;
-        left:0.5vw;
+        left:0.0vw;
         border-bottom-left-radius:5vw;
         border-bottom-right-radius:5vw;
     }
