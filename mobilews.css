@@ -320,6 +320,7 @@ input[type=checkbox]{
         display: inline-block;
         height: 200px;
         margin-right: 20px;
+        border-radius:10vw;
     }
     .textimg h2{
         background-color: #a459fe;
