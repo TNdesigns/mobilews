@@ -325,9 +325,11 @@ input[type=checkbox]{
         border-radius:10vw;
     }
     .textimg h2{
-        background-color: #a459fe;
         height:150px;
         font-size:10vw;
+        text-align:center;
+        font-family:sans-serif;
+        margin-top:80vh;
     }
 }
 @media screen and (max-height:920px){
